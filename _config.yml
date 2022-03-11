@@ -208,7 +208,7 @@ scholar:
   last_name: Martinez-Yelmo
   first_name: [Isaia, I.]
 
-  style: ieee
+  style: ieee-with-url
   locale: en
 
   source: /_bibliography/
