@@ -2,23 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Researcher in Telematics. Focused on SDN, NFV, P4, IoT, 6G, etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: imyelmo.jpg
+  image: imyelmo.jpg
 
-news: true  # includes a list of news items
+  address: >
+    <p>Escuela Politécnica Superior</p>
+    <p>Universidad de Alcalá</p>
+    <p>N-II, km 33,600</p>
+    <p>28805, Alcalá de Henares (Spain)</p>
+  
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+This is my personal webpage to gather all my CV information directly or via some existing informational or social networks.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Isaias Martinez-Yelmo} (PhD'10) received the Ph.D. degree in Telematics from the Carlos III University of Madrid, Spain, in 2010. After working as a Postdoctoral Assistant with the Carlos III University of Madrid, he became Assistant Professor and now remains an Associate Professor with the Automatics Department, Alcalá University, Spain. His research interests include peer-to-peer networks, content distribution networks, vehicular networks, Internet protocols and Next-Generation Networks. Nowadays, he is especially interested in advanced switching architectures, Software-Defined Networking (SDN) and P4. He has participated in various competitive research projects funded by the Regional Projects (Tigre5, TAPIR, IRIS, etc.), National projects (CIVTRAFF, ONENESS), and European projects (CONTENT, CARMEN, etc.). His research papers have been published in high-impact JCR indexed research journals, such as the IEEE Communications Magazine, Computer Communications, and Computer Networks, Sensors, among others. He is currently Associate Editor in the Journal of Telecommunication Systems from Springer.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+

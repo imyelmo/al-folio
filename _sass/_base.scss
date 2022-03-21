@@ -24,7 +24,7 @@ a, table.table a {
 }
 
 figure, img {
-  max-width: 90vw;
+  max-width: 120vw;
 }
 
 blockquote {
@@ -124,14 +124,14 @@ blockquote {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
   opacity: 0.95;
 }
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-theme-color);
   border: 1px solid var(--global-divider-color);
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--global-bg-color);
   }
   a:hover {
     color: var(--global-hover-color);
@@ -154,10 +154,10 @@ blockquote {
     }
   }
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-bg-color);
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-bg-color);
     &:hover {
       color: var(--global-hover-color);
     }
@@ -165,7 +165,7 @@ blockquote {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--global-bg-color);
       &:hover {
         color: var(--global-hover-color);
       }
@@ -176,12 +176,12 @@ blockquote {
     font-size: 1.7rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-bg-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-text-color);
         }
       }
     }
@@ -193,7 +193,7 @@ blockquote {
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: var(--global-bg-color);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -240,15 +240,15 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-theme-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-text-color);
         }
       }
     }
@@ -261,7 +261,7 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-theme-color);
   font-size: 0.75rem;
   .container {
     color: var(--global-footer-text-color);
@@ -271,7 +271,7 @@ footer.fixed-bottom {
   a {
     color: var(--global-footer-link-color);
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-footer-text-color);
       text-decoration: none;
     }
   }
