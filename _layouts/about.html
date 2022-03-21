@@ -26,6 +26,23 @@ layout: default
               {{ page.profile.address }}
             </div>
             {%- endif %}
+
+            {%- if page.profile.logo_aux %}
+            {%- assign profile_logo_aux_path = page.profile.logo_aux | prepend: 'assets/img/' -%}
+            {% include figure.html 
+            path=profile_logo_aux_path 
+            class="img-fluid z-dept-1 rounded"
+            alt=page.profile.logo_aux -%}
+            {% endif -%}
+
+            {%- if page.profile.logo %}
+            {%- assign profile_logo_path = page.profile.logo | prepend: 'assets/img/' -%}
+            {% include figure.html 
+            path=profile_logo_path 
+            class="img-fluid z-dept-1 rounded"
+            alt=page.profile.logo -%}
+          {% endif -%}
+
           </div>
           {%- endif %}
 
@@ -41,6 +58,7 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
+          
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
@@ -51,7 +69,6 @@ layout: default
             <div class="contact-note">
               {{ site.contact_note }}
             </div>
-            
           </div>
           {%- endif %}
         </article>
